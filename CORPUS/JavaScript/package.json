@@ -1,0 +1,23 @@
+{
+  "name": "svm-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js input/dev.xml",
+    "train": "node index.js input/train.xml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chartjs-node-canvas": "^4.1.6",
+    "cld": "^2.9.1",
+    "csv": "^6.3.5",
+    "fast-xml-parser": "^4.3.2",
+    "html-entities": "^2.4.0",
+    "node-lefff": "^0.3.1",
+    "stopword": "^2.0.8"
+  }
+}
